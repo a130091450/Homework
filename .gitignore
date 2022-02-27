@@ -1,1 +1,26 @@
 config.js
+
+
+# intellij idea
+*.iml
+.idea/
+node_modules/
+build/
+
+# maven
+target/
+
+# jrebel
+rebel.xml
+.classpath
+.project
+.settings/
+.gitignore.bak
+settings.xml
+
+#local history
+.history/
+
+#compile file
+contracts/**/artifacts/*.json
+test/artifacts/*.json
