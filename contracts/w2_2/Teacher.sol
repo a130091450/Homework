@@ -8,15 +8,16 @@ interface IScore {
 }
 
 contract Teacher {
-    address admin;
-    address scoreAddr;
+    address public admin;
+    address public scoreAddr;
 
     modifier onlyAdmin() {
         require(msg.sender == admin, "only admin can operate!");
+        _;
     }
 
     constructor () {
-        msg.sender == admin;
+        admin = msg.sender;
     }
 
     function setScoreAddress(address _scoreAddr) external onlyAdmin {

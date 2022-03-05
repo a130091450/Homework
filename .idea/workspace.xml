@@ -19,10 +19,24 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="90990888-9147-47ee-a96b-65f5bb53d011" name="Default Changelist" comment="">
+    <list default="true" id="90990888-9147-47ee-a96b-65f5bb53d011" name="Default Changelist" comment="fix">
+      <change afterPath="$PROJECT_DIR$/contracts/w2_1/SafeBanktest.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/contracts/w2_2/test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zhiqiang_remix_env.bat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/artifacts/build-info/c146f6ff5d9bf6dbd82f3154d7c003d3.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/artifacts/contracts/w2_1/Bank.sol/Bank.dbg.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/artifacts/contracts/w2_1/Bank.sol/Bank.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/solidity-files-cache.json" beforeDir="false" afterPath="$PROJECT_DIR$/cache/solidity-files-cache.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contracts/w2_1/BankAttacker.sol" beforeDir="false" afterPath="$PROJECT_DIR$/contracts/w2_1/BankAttacker.sol" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contracts/w2_1/BankDanger.sol" beforeDir="false" afterPath="$PROJECT_DIR$/contracts/w2_1/BankDanger.sol" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contracts/w2_1/BankSafe.sol" beforeDir="false" afterPath="$PROJECT_DIR$/contracts/w2_1/BankSafe.sol" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contracts/w2_1/test.js" beforeDir="false" afterPath="$PROJECT_DIR$/contracts/w2_1/unsafeBankAttack.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contracts/w2_2/Score.sol" beforeDir="false" afterPath="$PROJECT_DIR$/contracts/w2_2/Score.sol" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/contracts/w2_2/Teacher.sol" beforeDir="false" afterPath="$PROJECT_DIR$/contracts/w2_2/Teacher.sol" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hardhat.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/hardhat.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,8 +77,15 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="ts.external.directory.path" value="D:\applications\IntelliJ IDEA 2020.2.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\projects\okChain\Homework" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
@@ -92,8 +113,16 @@
       <workItem from="1646301448069" duration="1186000" />
       <workItem from="1646309509583" duration="1426000" />
       <workItem from="1646362616659" duration="764000" />
-      <workItem from="1646445068098" duration="7737000" />
+      <workItem from="1646445068098" duration="27074000" />
     </task>
+    <task id="LOCAL-00001" summary="fix">
+      <created>1646460543429</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1646460543429</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -111,15 +140,19 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="121" y="50" key="DiffContextDialog" timestamp="1646458823840">
       <screen x="0" y="0" width="1280" height="672" />
     </state>
     <state x="121" y="50" key="DiffContextDialog/0.0.1280.672@0.0.1280.672" timestamp="1646458823840" />
-    <state x="233" y="69" key="Vcs.Push.Dialog.v2" timestamp="1646458997927">
+    <state x="233" y="69" key="Vcs.Push.Dialog.v2" timestamp="1646460545236">
       <screen x="0" y="0" width="1280" height="672" />
     </state>
-    <state x="233" y="69" key="Vcs.Push.Dialog.v2/0.0.1280.672@0.0.1280.672" timestamp="1646458997927" />
+    <state x="233" y="69" key="Vcs.Push.Dialog.v2/0.0.1280.672@0.0.1280.672" timestamp="1646460545236" />
     <state x="1044" y="408" key="git4idea.branch.GitSmartOperationDialog" timestamp="1646187400614">
       <screen x="0" y="0" width="2560" height="1392" />
     </state>

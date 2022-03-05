@@ -31,7 +31,7 @@ contract BankSafe {
     // address => user amount
     mapping(address => uint256) public accountBalance;
 
-    function deposit() external {
+    function deposit() external payable {
         accountBalance[msg.sender] += msg.value;
         emit LogDeposit(msg.sender, msg.value);
     }
@@ -39,7 +39,7 @@ contract BankSafe {
     function withdraw(uint amount) external nonReentrancy {
         require(accountBalance[msg.sender] >= amount, "your balance not enough!");
         accountBalance[msg.sender] -= amount;
-        (bool success, ) = msg.sender.call({value: amount})(new bytes(0));
+        (bool success, ) = msg.sender.call{value: amount}(new bytes(0));
         require(success, "withdraw fail!");
         emit LogWithdraw(msg.sender, amount);
     }
@@ -50,6 +50,6 @@ contract BankSafe {
 
     receive() external payable {
         // 直接打钱而不通过充值函数的退钱
-        msg.sender.transfer(msg.value);
+        payable(msg.sender).transfer(msg.value);
     }
 }

@@ -17,11 +17,11 @@ contract Score {
     }
 
     // student => score
-    mapping(address => Score) scores;
+    mapping(address => Score) public scores;
     // student name => address
-    mapping(string => address) name2address;
+    mapping(string => address) public name2address;
     // student list
-    string[] students;
+    string[] public students;
 
     constructor (address _teacher) {
         teacher = _teacher;
@@ -34,6 +34,7 @@ contract Score {
 
     modifier scoreCheck(uint8 score) {
         require(score <= 100, "score can not exceed 100");
+        _;
     }
 
     function addStudent(address studentAddr, string memory name, uint8 score) external onlyTeacher scoreCheck(score) {
@@ -42,7 +43,7 @@ contract Score {
         scores[studentAddr] = Score(name, score);
     }
 
-    function changeScores(string memory name, uint score) external onlyTeacher scoreCheck(score) {
+    function changeScores(string memory name, uint8 score) external onlyTeacher scoreCheck(score) {
         require(name2address[name] != address(0), "student not exist!");
         scores[name2address[name]] = Score(name, score);
     }
