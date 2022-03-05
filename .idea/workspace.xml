@@ -20,19 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="90990888-9147-47ee-a96b-65f5bb53d011" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/contracts/w2_1/BankAttacker.sol" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/contracts/w2_1/BankDanger.sol" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/contracts/w2_1/BankSafe.sol" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/contracts/w2_1/TransferHelper.sol" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/contracts/w2_1/test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/contracts/w2_2/Score.sol" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/contracts/w2_2/Teacher.sol" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2022_3_2_10_16__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2022_3_2_10_16__Default_Changelist_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2022_3_2_15_48__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2022_3_2_15_48__Default_Changelist_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/作业请见master分支" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contracts/w2_2/Teacher.sol" beforeDir="false" afterPath="$PROJECT_DIR$/contracts/w2_2/Teacher.sol" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +39,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -102,7 +92,7 @@
       <workItem from="1646301448069" duration="1186000" />
       <workItem from="1646309509583" duration="1426000" />
       <workItem from="1646362616659" duration="764000" />
-      <workItem from="1646445068098" duration="6313000" />
+      <workItem from="1646445068098" duration="7737000" />
     </task>
     <servers />
   </component>
@@ -122,6 +112,14 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="121" y="50" key="DiffContextDialog" timestamp="1646458823840">
+      <screen x="0" y="0" width="1280" height="672" />
+    </state>
+    <state x="121" y="50" key="DiffContextDialog/0.0.1280.672@0.0.1280.672" timestamp="1646458823840" />
+    <state x="233" y="69" key="Vcs.Push.Dialog.v2" timestamp="1646458997927">
+      <screen x="0" y="0" width="1280" height="672" />
+    </state>
+    <state x="233" y="69" key="Vcs.Push.Dialog.v2/0.0.1280.672@0.0.1280.672" timestamp="1646458997927" />
     <state x="1044" y="408" key="git4idea.branch.GitSmartOperationDialog" timestamp="1646187400614">
       <screen x="0" y="0" width="2560" height="1392" />
     </state>
