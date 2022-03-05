@@ -254,8 +254,8 @@
       ]
     },
     "D:\\projects\\okChain\\Homework\\contracts\\w2_2\\Teacher.sol": {
-      "lastModificationDate": 1646484139210,
-      "contentHash": "b41995d129e548de719317fb5e9e6b98",
+      "lastModificationDate": 1646485338259,
+      "contentHash": "2607f96c605d345791d66b1171bec469",
       "sourceName": "contracts/w2_2/Teacher.sol",
       "solcConfig": {
         "version": "0.8.4",

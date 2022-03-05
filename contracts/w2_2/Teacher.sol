@@ -4,7 +4,7 @@ pragma solidity ^0.8.0;
 
 interface IScore {
     function addStudent(address studentAddr, string memory name, uint8 score) external;
-    function changeScores(string memory name, uint score) external;
+    function changeScores(string memory name, uint8 score) external;
 }
 
 contract Teacher {
@@ -28,7 +28,7 @@ contract Teacher {
         IScore(scoreAddr).addStudent(studentAddr, name, score);
     }
 
-    function changeScores(string memory name, uint score) external onlyAdmin {
+    function changeScores(string memory name, uint8 score) external onlyAdmin {
         IScore(scoreAddr).changeScores(name, score);
     }
 }

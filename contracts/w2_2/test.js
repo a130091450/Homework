@@ -26,12 +26,16 @@ async function main() {
     await teacher.setScoreAddress(score.address);
 
     // teacher增加学生成绩
-    teacher.addStudent("0xD4Ac560CB110c1dBff3d1B2906d36cA07eEDB8aC", "jack", 50);
-    teacher.addStudent("0xd4dE3e2012210B381e404A6A8DE11092096D9237", "mike", 70);
-    teacher.addStudent("0x4A37B7B13d83bA7B49D5b35BC7BA403689b8b9B8", "alice", 30);
+    await teacher.addStudent("0xD4Ac560CB110c1dBff3d1B2906d36cA07eEDB8aC", "jack", "79");
+    await teacher.addStudent("0xd4dE3e2012210B381e404A6A8DE11092096D9237", "mike", "70");
+    await teacher.addStudent("0x4A37B7B13d83bA7B49D5b35BC7BA403689b8b9B8", "alice", "30");
 
-    console.log(await score.name2address("jack"));
+    console.log(await score.scores("0xD4Ac560CB110c1dBff3d1B2906d36cA07eEDB8aC"));
 
+    await teacher.changeScores("jack", "72");
+
+    console.log(await score.scores("0xD4Ac560CB110c1dBff3d1B2906d36cA07eEDB8aC"));
+    console.log("测试结束");
 
 }
 
