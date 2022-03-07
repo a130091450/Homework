@@ -9,7 +9,7 @@ contract BankDanger {
     address owner;
 
     event LogDeposit(address indexed user, uint amount);
-    event LogWithdraw(address indexed user, uint amount);
+    event LogWithdraw(address indexed user);
 
     modifier onlyOwner() {
         require(msg.sender == owner, "only owner can call the function!");
@@ -28,12 +28,11 @@ contract BankDanger {
         emit LogDeposit(msg.sender, msg.value);
     }
 
-    function withdraw(uint amount) external {
-        require(accountBalance[msg.sender] >= amount, "your balance not enough!");
-        (bool success, ) = msg.sender.call{value: amount}(new bytes(0));
-//        accountBalance[msg.sender] -= amount;
+    function withdraw() external {
+        (bool success, ) = msg.sender.call{value: accountBalance[msg.sender]}(new bytes(0));
+        accountBalance[msg.sender] = 0;
         require(success, "withdraw fail!");
-        emit LogWithdraw(msg.sender, amount);
+        emit LogWithdraw(msg.sender);
     }
 
     function withdrawAll() external onlyOwner {

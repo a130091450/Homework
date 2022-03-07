@@ -36,7 +36,7 @@ async function main() {
     await attacker.attackIt({value: ethers.utils.parseEther("1")});
     console.log("attaker合约余额:", getHumanBalance(await web3.eth.getBalance(attacker.address)));
     console.log("bank合约余额:", getHumanBalance(await web3.eth.getBalance(bank.address)));
-    consol.log("测试结束");
+    console.log("测试结束");
 
 }
 

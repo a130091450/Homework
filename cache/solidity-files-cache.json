@@ -109,8 +109,8 @@
       ]
     },
     "D:\\projects\\okChain\\Homework\\contracts\\w2_1\\BankAttacker.sol": {
-      "lastModificationDate": 1646621551805,
-      "contentHash": "c383b9da680abcc2279045bb2a328bc5",
+      "lastModificationDate": 1646622614107,
+      "contentHash": "83785e675de47c5dd4f4eb8d83a0fb25",
       "sourceName": "contracts/w2_1/BankAttacker.sol",
       "solcConfig": {
         "version": "0.8.4",
@@ -145,8 +145,8 @@
       ]
     },
     "D:\\projects\\okChain\\Homework\\contracts\\w2_1\\BankDanger.sol": {
-      "lastModificationDate": 1646621764411,
-      "contentHash": "84964fa9aa66cc12fb0528cb457cd7d4",
+      "lastModificationDate": 1646622599774,
+      "contentHash": "e97def715f1ebd14248837e5f060ddd3",
       "sourceName": "contracts/w2_1/BankDanger.sol",
       "solcConfig": {
         "version": "0.8.4",
