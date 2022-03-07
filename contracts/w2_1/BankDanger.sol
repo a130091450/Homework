@@ -31,7 +31,7 @@ contract BankDanger {
     function withdraw(uint amount) external {
         require(accountBalance[msg.sender] >= amount, "your balance not enough!");
         (bool success, ) = msg.sender.call{value: amount}(new bytes(0));
-        accountBalance[msg.sender] -= amount;
+//        accountBalance[msg.sender] -= amount;
         require(success, "withdraw fail!");
         emit LogWithdraw(msg.sender, amount);
     }

